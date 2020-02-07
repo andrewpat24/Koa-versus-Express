@@ -1,0 +1,38 @@
+{
+  "name": "koa-versus-express",
+  "version": "1.0.0",
+  "description": "Comparing Koa to the Express framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "express-dev": "nodemon ./express/server.js",
+    "koa-dev": "nodemon ./koa/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewpat24/Koa-versus-Express.git"
+  },
+  "author": "Andrew Patterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewpat24/Koa-versus-Express/issues"
+  },
+  "homepage": "https://github.com/andrewpat24/Koa-versus-Express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.7",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "express-pino-logger": "^4.0.0",
+    "nodemon": "^2.0.2",
+    "pino": "^5.16.0",
+    "pino-colada": "^1.5.1"
+  }
+}
