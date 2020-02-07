@@ -21,6 +21,7 @@ app
 // Mongoose
 const mongoose = require("mongoose");
 mongoose.connect(process.env.MONGO_URI);
+require("./models/Events");
 
 // Routes
 const rootRoute = require("./routes/rootRoute");
